@@ -1,0 +1,26 @@
+[
+  {
+    "source_filename": "模具.DWG",
+    "repository_path": "cad/assembly.dwg",
+    "bytes": 366899,
+    "sha256": "01a8f7bd4250b73c8a5562ca5715eb912bed822caef30f517b404a92f493f9b3"
+  },
+  {
+    "source_filename": "模具.STEP",
+    "repository_path": "cad/assembly.step",
+    "bytes": 1375568,
+    "sha256": "c48df385f03fe7574323f0bd9ea1bac327c3f24822bc74cb8fd2b66780086735"
+  },
+  {
+    "source_filename": "凹模.DWG",
+    "repository_path": "cad/die.dwg",
+    "bytes": 134726,
+    "sha256": "cd0cbc71bbe62546ced66e495445d3afc7f9bfe77c6665367116c61fa19d93f0"
+  },
+  {
+    "source_filename": "凹凸模.DWG",
+    "repository_path": "cad/punch-die.dwg",
+    "bytes": 123050,
+    "sha256": "697329a382cd35ce17071365e5876a29267be05717ab3cd0e20e2e20da92e0a7"
+  }
+]

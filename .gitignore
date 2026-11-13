@@ -1,0 +1,9 @@
+# Local CAD lock / backup files and Python cache
+__pycache__/
+*.pyc
+*.dwl
+*.dwl2
+*.bak
+~$*
+.DS_Store
+Thumbs.db

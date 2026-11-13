@@ -1,0 +1,93 @@
+{
+  "review_date": "2026-11-13",
+  "scope": "Arithmetic only; report inputs are not independently validated.",
+  "source": "docs/design-report.pdf (PDF page numbers)",
+  "checks": [
+    {
+      "name": "drawing_ratio",
+      "pages": [
+        4
+      ],
+      "expression": "109/141",
+      "calculated": 0.7730496453900709,
+      "report_approximation": 0.77
+    },
+    {
+      "name": "relative_thickness_percent",
+      "pages": [
+        4
+      ],
+      "expression": "1/141*100",
+      "calculated": 0.7092198581560284,
+      "report_approximation": 0.7
+    },
+    {
+      "name": "blanking_edge_nominal_mm",
+      "pages": [
+        4,
+        5
+      ],
+      "die": 140.55,
+      "punch": 140.39000000000001,
+      "diametral_clearance": 0.1599999999999966,
+      "tolerance_sum": 0.025,
+      "clearance_range_width": 0.06
+    },
+    {
+      "name": "blanking_force_kN",
+      "pages": [
+        5
+      ],
+      "expression": "1.3*3.14*141*1*300/1000",
+      "calculated": 172.66860000000003,
+      "report_value": 172.8
+    },
+    {
+      "name": "drawing_force_kN",
+      "pages": [
+        5
+      ],
+      "expression": "3.14*109*1*520/1000",
+      "calculated": 177.97519999999997,
+      "report_value": 80.35
+    },
+    {
+      "name": "blank_holder_force_kN",
+      "pages": [
+        5
+      ],
+      "expression": "3.14/4*(141**2-(109+1+2*2)**2)*3/1000",
+      "calculated": 16.214175,
+      "report_value": 14.03
+    },
+    {
+      "name": "drawing_plus_holding_kN",
+      "pages": [
+        5,
+        6
+      ],
+      "calculated": 194.18937499999998,
+      "report_page_6_value": 158.05,
+      "calculated_sum_less_than_blanking": false,
+      "warning": "Actual peak press load depends on the process sequence and stroke."
+    },
+    {
+      "name": "sheet_cut_comparison",
+      "pages": [
+        6
+      ],
+      "first_direction_count": 70,
+      "second_direction_count": 60
+    },
+    {
+      "name": "nominal_blank_area_share_percent",
+      "pages": [
+        4,
+        6
+      ],
+      "expression": "70*pi*141**2/4/(1000*1500)*100",
+      "calculated": 72.86767080368845,
+      "origin": "Added in portfolio review; not finished-part material utilization."
+    }
+  ]
+}
