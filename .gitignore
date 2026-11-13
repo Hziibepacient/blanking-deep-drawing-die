@@ -7,3 +7,8 @@ __pycache__/
 ~$*
 .DS_Store
 Thumbs.db
+
+# Reproducible visualization intermediates
+scripts/visualization/geometry*.json
+scripts/visualization/*.blend*
+scripts/visualization/*-raw*.png
